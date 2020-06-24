@@ -145,12 +145,12 @@ var characterSpacingRoot = __webpack_require__(/*! ./constants */ "./src/constan
 /***/ (function(module, exports) {
 
 //set the active attribute
-var usingAttribute = "default"; // define your own attributes
+var usingAttribute = "stock"; // define your own attributes
 
 var fontAttributes = {
-  default: [selectedLineHeight = 1.61, selectedCharacterSpacing = 30],
+  stock: [selectedLineHeight = 1.61, selectedCharacterSpacing = 30],
   compact: [selectedLineHeight = 1.32, selectedCharacterSpacin = 60],
-  relaxed: [selectedLineHeight = 1.84, selectedCharacterSpacing = 10]
+  relaxed: [selectedLineHeight = 1.84, selectedCharacterSpacing = 90]
 }; //do not change
 
 function lineHeight() {
