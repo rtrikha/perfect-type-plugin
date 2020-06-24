@@ -1,5 +1,6 @@
 ![enter image description here](https://perfect-type.s3-ap-southeast-1.amazonaws.com/perfecttype.svg)
 
+
 ### Installation?
  - [Download](../../releases/latest/download/perfect-type.sketchplugin.zip) the latest release of the plugin
 - Un-zip
@@ -24,7 +25,5 @@ var usingAttribute =  "stock"
 const fontAttributes = {
 stock: [(selectedLineHeight =  1.61), (selectedCharacterSpacing =  30)],
 compact: [(selectedLineHeight =  1.32), (selectedCharacterSpacin =  60)],
-relaxed: [(selectedLineHeight =  1.84), (selectedCharacterSpacing =  90 )],
-
-};
+relaxed: [(selectedLineHeight =  1.84), (selectedCharacterSpacing =  90 )],};
 ```
