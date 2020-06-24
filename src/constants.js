@@ -1,9 +1,9 @@
 //set the active attribute
-var usingAttribute = "default"
+var usingAttribute = "stock"
 
 // define your own attributes
 const fontAttributes = {
-	default: [(selectedLineHeight = 1.61), (selectedCharacterSpacing = 30)],
+	stock: [(selectedLineHeight = 1.61), (selectedCharacterSpacing = 30)],
 	compact: [(selectedLineHeight = 1.32), (selectedCharacterSpacin = 60)],
 	relaxed: [(selectedLineHeight = 1.84), (selectedCharacterSpacing = 90	)],
 };
