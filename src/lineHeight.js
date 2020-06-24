@@ -26,7 +26,7 @@ export default function() {
 					typeArray.setLineHeight(lineHeight);
 				}
 				else{
-					context.document.showMessage("Err! Not a good idea on single line string");
+					context.document.showMessage("Err! Not a good idea on single line text");
 				}
 			}
 		} else {
