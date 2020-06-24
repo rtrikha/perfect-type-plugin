@@ -1,17 +1,45 @@
 {
   "$schema": "https://raw.githubusercontent.com/sketch-hq/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
-  "icon": "icon.png",
-  "commands": [
+  "author" : "Raunak Trikha",
+  "description" : "Always get the perfect type",
+  "authorEmail" : "raunakstrikha@gmail.com",
+  "name" : "Perfect Type",
+  "icon": "perfectType.png",
+  "commands" : [
     {
-      "name": "my-command",
-      "identifier": "perfect-type.my-command-identifier",
-      "script": "./my-command.js"
+      "name" : "Line Height",
+      "script" : "lineHeight.js",
+      "handlers" : {
+        "run" : "onRun"
+      },
+      "identifier" : "perfectType.lineHeight",
+      "shortcut": "ctrl shift l"
+    },
+    {
+      "name" : "Character Spacing",
+      "script" : "characterSpacing.js",
+      "handlers" : {
+        "run" : "onRun"
+      },
+      "identifier" : "perfectType.characterSpacing",
+      "shortcut": "ctrl shift c"
+    },   
+    {
+      "name" : "Smart Type",
+      "script" : "smartType.js",
+      "handlers" : {
+        "run" : "onRun"
+      },
+      "identifier" : "perfectType.smartType",
+      "shortcut": "ctrl shift t"
     }
   ],
   "menu": {
-    "title": "perfect-type",
-    "items": [
-      "perfect-type.my-command-identifier"
+    "title" : "Perfect Type",
+    "items" : [
+      "perfectType.lineHeight",
+      "perfectType.characterSpacing",
+      "perfectType.smartType"
     ]
   }
 }
