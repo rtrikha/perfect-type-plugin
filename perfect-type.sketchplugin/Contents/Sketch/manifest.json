@@ -42,7 +42,7 @@
       "perfectType.smartType"
     ]
   },
-  "version": "3.0.0",
+  "version": "2.0.0",
   "identifier": "perfect-type",
   "disableCocoaScriptPreprocessor": true,
   "appcast": "https://raw.githubusercontent.com/rtrikha/perfect-type-plugin/master/.appcast.xml"

@@ -1,14 +1,20 @@
-var selectedLineHeight = 1.61; // golden ratio
-var selectedCharacterSpacing = 30; // default
+//set the active attribute
+var usingAttribute = "default"
 
-console.log(selectedLineHeight);
+// define your own attributes
+const fontAttributes = {
+	default: [(selectedLineHeight = 1.61), (selectedCharacterSpacing = 30)],
+	compact: [(selectedLineHeight = 1.32), (selectedCharacterSpacin = 60)],
+	relaxed: [(selectedLineHeight = 1.84), (selectedCharacterSpacing = 90	)],
+};
 
+//do not change
 function lineHeight() {
-	return selectedLineHeight;
+	return fontAttributes[usingAttribute][0];
 }
 
 function characterSpacing() {
-	return selectedCharacterSpacing;
+	return fontAttributes[usingAttribute][1];
 }
 
 module.exports = {lineHeight, characterSpacing};
